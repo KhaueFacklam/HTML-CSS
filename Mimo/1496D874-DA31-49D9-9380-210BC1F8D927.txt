@@ -1,0 +1,21 @@
+HTML
+
+FLEX-BOX
+
+display:
+	⁃	flex
+
+flex-flow (direction/wrap):
+	⁃	row/column wrap/nowrap
+
+flex (grow/shrink/basis):
+	⁃	0 1 auto
+
+SOBRESCREVENDO
+div { color: gray; }
+.title { color: orange; }
+
+
+
+
+

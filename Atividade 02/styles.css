@@ -1,0 +1,108 @@
+body {
+    font-family: Helvetica;
+    background-color: rgb(245, 245, 245);
+    padding: 0px;
+    margin: 0px;
+}
+
+.p {
+    margin: 30px;
+}
+
+.image{
+    display: flexbox;
+    width: 80%;
+    border: solid 6px black;
+    margin: 5px;
+    border-radius: 12px;
+    align-content: center;
+}
+
+.footer {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.cor-branca{
+    color: rgb(245, 245, 245);
+}
+
+nav {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 30px;
+    border-bottom: solid 1px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0 50px 0 0;
+    list-style: none;
+    align-items: center;
+}
+
+nav li {
+    margin: 10px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px ;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: solid 1px;
+    margin-top: 0px;
+
+
+}
+
+main {
+    margin: 30px;
+
+    
+}
+
+aside {
+    color: rgb(245, 245, 245);
+    background-image: linear-gradient(#a52020, rgb(42, 154, 228));
+    text-align:center;
+    padding: 30px 30px 30px 30px;
+    display: block;
+    height: 100%;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
